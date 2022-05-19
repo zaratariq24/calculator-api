@@ -10,10 +10,10 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```csharp
-BasicCalculatorAPI.Standard.BasicCalculatorAPIClient client = new BasicCalculatorAPI.Standard.BasicCalculatorAPIClient.Builder().Build();
+SimpleCalculatorAPI.Standard.SimpleCalculatorAPIClient client = new SimpleCalculatorAPI.Standard.SimpleCalculatorAPIClient.Builder().Build();
 ```
 
-## Basic Calculator APIClient Class
+## Simple Calculator APIClient Class
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
@@ -37,11 +37,11 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 | Name | Description | Return Type |
 |  --- | --- | --- |
 | `GetBaseUri(Server alias = Server.Default)` | Gets the URL for a particular alias in the current environment and appends it with template parameters. | `string` |
-| `ToBuilder()` | Creates an object of the Basic Calculator APIClient using the values provided for the builder. | `Builder` |
+| `ToBuilder()` | Creates an object of the Simple Calculator APIClient using the values provided for the builder. | `Builder` |
 
-## Basic Calculator APIClient Builder Class
+## Simple Calculator APIClient Builder Class
 
-Class to build instances of Basic Calculator APIClient.
+Class to build instances of Simple Calculator APIClient.
 
 ### Methods
 
